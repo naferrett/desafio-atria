@@ -1,0 +1,17 @@
+#cardsContainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+    padding: 10px;
+    background-color: #dad2c6;;
+    width: 45%;
+    height: 275px;
+    margin: 20px 0;
+}
+.card > a{
+    text-decoration: underline;
+    color: rgb(1,44,86);
+}

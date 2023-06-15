@@ -1,0 +1,55 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    background-color: #f6eee1;
+    color: rgb(1,44,86);
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+a{
+    text-decoration: none;
+}
+
+#botaoVoltar {
+    cursor: pointer;
+    margin: 5px;
+}
+
+
+main, footer{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.secao{
+    box-shadow: 2px 2px 3px #c5bfb5;
+    padding: 10px 10px;
+    margin: 15px 0;
+    width: 100%;
+}
+
+.botaoAzul {
+    background-color: #f6eee1; 
+    color: black; 
+    font-weight: 700;
+    font-family: 'IBM Plex Mono', monospace;
+    padding: 15px 50px;
+    border: 2px solid rgb(1,44,86);
+    /* alinhar no meio */
+    margin: 0 auto;
+    display: flex;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.botaoAzul:hover {
+    background-color: rgb(1,44,86); 
+    color: white;
+}
+
+footer{
+    padding: 20px 20px;
+    margin: 15px auto;
+    box-shadow: 2px 2px 3px #c5bfb5;
+}
